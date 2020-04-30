@@ -2,4 +2,6 @@
 /*
   included some comments
 */
-select count(*) from information_schema.tables;
+create table mattemp(temp_col string);
+
+insert into mattemp values ('Hello, World!');
