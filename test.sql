@@ -2,7 +2,19 @@
 /*
   included some comments
 */
-drop table if exists mattemp;
-create table mattemp(temp_col string);
+create table if not exists mattemp(temp_col string);
 
-insert into mattemp values ('Hello, World!');
+truncate table mattemp;
+
+insert into mattemp values ('Hello, World!');>
+insert into mattemp values ('Hello, World!');>
+insert into mattemp values ('Hello, World!');>
+insert into mattemp values ('Hello, World!');>
+insert into mattemp values ('Hello, World!');>
+insert into mattemp values ('Hello, World!');>
+insert into mattemp values ('Hello, World!');>
+insert into mattemp values ('Hello, World!');>
+insert into mattemp values ('Hello, World!');>
+insert into mattemp values ('Hello, World!');>
+insert into mattemp values ('Hello, World!');>
+insert into mattemp values ('Hello, World!');>
